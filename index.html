@@ -1,0 +1,449 @@
+<html >
+<head>
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Vip视频站</title>
+	<!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+	<script src="js/snow.js" type="text/javascript"></script>
+	<meta name="keywords" content="vip视频在线解析,优酷VIP解析,爱奇艺VIP解析,腾讯VIP解析,乐视VIP解析,芒果VIP解析,优酷视频解析网站">
+	<meta name="description" content="VIP视频解析站：提供优酷VIP解析，爱奇艺VIP解析，腾讯VIP解析，乐视VIP解析，芒果VIP解析等解析服务，小人物做的小网站,只是为了我的朋友们,希望访问本网站的人都是我的朋友...">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Vip视频站</title>
+		<script type="text/javascript">
+	//	  var OriginTitile = document.title;
+    //  var titleTime;
+    //  document.addEventListener('visibilitychange',
+    //  function() {
+    //    if (document.hidden) {
+    //      document.title = 'φ(>ω<*) 这有好东西哦~ ' + OriginTitile;
+    //      clearTimeout(titleTime);
+    //    } else {
+    //      document.title = '( • ̀ω•́ )✧恭喜你发现了~ ' + OriginTitile;
+    //      titleTime = setTimeout(function() {
+    //        document.title = OriginTitile;
+    //      },
+    //      2000);
+    //    }
+    //  });
+	  	</script>
+
+		    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/viewer.min.css">
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+	<link href="css/newcommons.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+        @font-face{font-family:"tf";src:url("/tfboys.360.cn/m/f/tf.eot");src:url("/tfboys.360.cn/m/f/tf.eot?#qiwoo-font") format("embedded-opentype"),url("/tfboys.360.cn/m/f/tf.woff") format("woff"),url("/tfboys.360.cn/m/f/tf.ttf") format("truetype"),url("/tfboys.360.cn/m/f/tf.svg") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:"\601d\6e90\9ed1\4f53\52a9\624b\7248";font-style:normal;font-weight:normal;src:url('sycn.eot');src:url('sycn.eot?#iefix') format('embedded-opentype'),url(sycn.ttf) format('truetype')}
+		body{background-color:#F6F6F6;font-family:'Microsoft YaHei','\5fae\8f6f\96c5\9ed1'}
+		.head{background:rgba(0,0,0,0.2);height:60px;position:fixed;width:100%;min-width:1068px;top:0;box-shadow:0 0 2px rgba(0,0,0,.1);z-index:1001}
+		.head .bg-mask{position:absolute;width:100%;height:100%;background:#fff;opacity:.1;filter:alpha(opacity=10);-ms-filter:"alpha(opacity=10)"}
+		.zslogo{position:absolute;top:0;left:0;margin:13px 0 0 35px}
+		.head .navList{position:absolute;right:0;top:0}
+		.link{padding:0 15px;display:block;height:60px;float:left}
+		.link span{display:inline-block;height:60px;color:#fff;font-size:16px;line-height:60px}
+		.link,.link:hover{text-decoration:none}
+		.link-app{padding:0;margin-left:0;margin-right:36px;position:relative;text-align:center;width:102px}
+		.link-app img,.link-app span{vertical-align:middle;margin-right:5px}
+		.link-app .icon-arrow{display:inline-block;*display:inline;*zoom:1;width:9px;height:5px;background:url(img/tip.png) no-repeat;margin-right:0}
+		.link-app:hover{border-radius:0;background-color:rgba(0,0,0,.4);height:180px}
+		.link-app .qrcode{display:none}.link-app:hover .qrcode{display:block}
+		.link-app:hover .qrcode img{margin-right:0;margin-top:3px}
+		.link-app:hover .icon-arrow{background-position:0 -5px}
+		.head .content .cur span{background:url() 0 0 repeat-x}
+		.body{padding-top:60px;position:relative}
+		.body .bg{padding-top:448px}
+		.bg_c{height:168px;background:url(img/cover.png) center bottom no-repeat}
+		.bg_f{height:200px;background:#fff}
+		.head,.body{-ms-transition:background 1s linear;-o-transition:background 1s linear;-moz-transition:background 1s linear;-webkit-transition:background 1s linear;transition:background 1s linear}
+		.content{position:relative;width:1068px;left:50%;margin-left:-534px;top:0}
+	
+		.lisContainer{position:absolute;width:381px;height:59px;top:449px;left:589px;text-align:center;padding-top:22px}
+		.li{display:inline-block;width:16px;height:16px;background:url() 0 0 no-repeat;margin-right:18px;position:relative}
+		.li-gray{margin-right:0}
+		.li em{width:100%;height:100%;background:url() 0 0 no-repeat;position:absolute;top:0;left:0;display:none}
+		.lisContainer .cur em{display:block}
+		.li-green{background-position:0 0}
+		.li-blue{background-position:-33px 0}
+		.li-pink{background-position:-67px 0}
+		.li-yellow{background-position:-101px 0}
+		.li-purple{background-position:-134px 0}
+		.li-red{background-position:-168px 0}
+		.li-gray{background-position:-201px 0}
+
+	
+		.containe{
+			text-align: center;
+		}
+		#url{
+			width:600px; 
+			height:50px; 
+			border-color:#54C754;
+			border: 1px solid #f16969;
+			display: inline-block;
+			margin:0 -4px;
+			padding: 0 12px 5px 12px;
+			border-radius: 0;
+		}
+		#doplayers{
+			margin: 0px;
+			width:150px;
+			height: 50px;
+			display: inline-block;
+			border-top-left-radius:0;
+			border-bottom-left-radius:0
+			
+		}
+		#doplayers1{
+			margin: 0px;
+			width:150px;
+			height: 50px;
+			display: inline-block;
+			border-top-right-radius:0;
+			border-bottom-right-radius:0;
+			margin-top: -1px;		
+		}		
+		.fromer{
+			text-align: center;
+			padding-top: 2px;
+			
+		}
+		.btn-success{
+			background-color:#f16969;
+		}
+		.btn-success:hover, .btn-success.hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+			color: #ffffff;
+			background-color: #333333;
+			/* border: 1px solid #ff2c42; */
+		}
+		.yy{
+			visibility:hidden;
+			z-index:-1;
+			position:absolute;
+			width:200px;
+			height:0px;
+			border:2px solid #555;
+			top:200px;
+			transition:all 1s;
+		}
+		.y1{
+			left:200px;
+			transform:rotate(0deg);
+		}
+		.y2{
+			right: 200px;
+			transform: rotate(0deg);
+		}
+		.y3{			
+			width:100px;
+			position:relative;
+			top:-100px;
+			display:inline-block;
+			transform: rotate(0deg);
+		}
+		.page{
+			background: url(img/bg.jpg) repeat;
+			background-size:cover;
+		}
+		
+		#bgc{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: none;
+		overflow: hidden;
+		z-index: -1;
+		}
+		</style>
+
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="js/viewer.min.js" type="text/javascript"></script>
+</head>
+	<header>
+      <div>
+        <h1>
+          <a ></a>
+          <a ></a>
+          <strong></strong>
+        </h1>
+        <p>
+          <em>
+          </em>
+        </p>
+        <aside>
+          <a ></a>
+          <a></a>
+         
+          <a ></a>
+        </aside>
+      </div>
+
+      <a href="3194" class="button p"></a>
+      <a href="3196" class="button n"></a>
+    </header>
+    <body>
+		<div class='yy y1'></div><div class='yy y2'></div>
+        <div class="page">
+             <div class="head js-bg-ele">
+                <div class="content">
+                    <!-- <a href="http://v.codingheart.cn/"><img src="img/aaa.png" title="VIP视频解析站" alt="VIP视频解析站" class="zslogo"></a> -->
+					<a href="http://v.codingheart.cn/"></a>
+                   <div class="navList">
+                        <a href="http://codingheart.cn" class="link cur"><span>心猿意码</span></a>
+                  </div>
+                </div>
+            </div> 
+                    
+            <div class="body js-bg-ele">
+               <div class="content">
+				<br /> 
+				<div class="containe">
+					<input name="doplayers" type="button" id="doplayers1" class="btn btn-block btn-lg btn-success" value="会员视频地址（Ctrl+v粘贴网址）" title="支持：爱奇艺、腾讯、优酷、土豆、搜狐、响巢看看、暴风影音、PPTV、56、酷6、乐视TV、风行网、芒果TV、m1905电影网、音悦台MV">					
+					<!--<form id="testform" method="post">-->
+						<!--
+						<div class="col-xs-6">
+						  <div class="form-group has-success">
+							<input type="text" name="url" value="" placeholder="在这里输入会员视频地址....." class="form-control" />
+							<span class="input-icon fui-check-inverted"></span>
+						  </div>
+						</div>
+						
+						<div class="col-xs-2">
+						  <a href="#fakelink" class="btn btn-block btn-lg btn-success" name="submit" onclick="test_post()">播放</a>
+						</div>
+					-->
+					<!--<div class="fromer">-->
+					<input name="url" id="url" type="text" class="form-control" value="https://v.qq.com/x/page/g0346zybckn.html" placeholder="输入想观看的Vip视频网址">		  
+					<input name="doplayers" type="button" id="doplayers" class="btn btn-block btn-lg btn-success"  value="立即播放">
+				</div>
+				</div>
+		<br/>
+      </div>
+        <!--</div>-->
+    <div id="ckvip" style="position:relative;z-index:1000">
+		<iframe border="0" id="vplay" name="vplay" src="" style="width: 1010px; height: 570px" allowfullscreen="" allowtransparency="" frameborder="0">
+		</iframe>
+		<div style="text-align:center">
+			<div class='yy y3'></div>
+		</div>
+	</div>
+	<ul id ="helpGif" style="display:none">
+			<li><img src="img/vvlighter.gif" alt="帮助"></li>
+	</ul>				
+	 				
+					<!--</form>-->
+        <!--
+         <p><font color="#FFFFFF">在下面 ☟ 输入收费视频地址,点击播放按钮即可观看Vip视频</font></p>
+     -->
+	 </div>
+<script type="text/javascript" src="js/swfobjects.js"></script>
+<script type="text/javascript" src="js/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+var viewer = new Viewer(document.getElementById('helpGif'), {
+	url: 'src',
+	hidden: function() {
+		$("#helpGif img").attr("src","");
+	},
+	show:function(){
+		$("#helpGif img").attr("src","img/vvlighter.gif");
+	}
+});
+$("#doplayers1").bind("click", function() {
+    viewer.show();
+});
+
+viewer.show();
+setTimeout(players,1500);
+$("#doplayers").bind("click", function() {
+    players()
+});
+$(function(){
+	
+})
+function players() {
+	var a = $('#url').val(),SRC='';
+    if ($('#url').val() == "") {
+        alert('请输入视频网站网址！');
+        $('#url').focus();
+        return (false)
+    }
+	if('李文,菲,雅,莎'.indexOf(a)>-1) a = 'rose';
+	switch(a){
+		case '12':SRC='http://000o.cc/2018/333.php?url=http://v.youku.com/v_show/id_XNTY4MjYwMjAw.html?from=s1.8-1-1.2&spm=a2h0k.8191407.0.0';break;
+		case 'suphie' :SRC='http://000o.cc/2018/333.php?url=https://m.youku.com/video/id_XMzEwMjY5MTM1Ng==.html';break;
+		case 'rose':SRC = "rose.html";launchIntoFullscreen($('#vplay')[0]);break;
+		case 'yy':SRC = '';$('.yy').css('visibility','visible');setTimeout(function(){$('.y1').css('transform','rotate(45deg)');$('.y2').css('transform','rotate(-45deg)');$('.y3').css({'transform':'rotate(90deg)',height:'5px'})},400);break;;
+		default :SRC = "http://yun.baiyug.cn/vip/?url=" + a;break;
+	}
+	document.getElementById("vplay").src=SRC;
+
+}
+
+function players2() {
+    var a = $('#url').val();
+    if ($('#url').val() == "") {
+        alert('请输入视频网站网址！');
+        $('#url').focus();
+        return (false)
+    }
+    var b = {
+      f: 'http://api.baiyug.cn/vip/index.php?url=' + a,
+        c: 0,
+        s: 2,
+        p: 1,
+        b: 1,
+    };
+    var c = {
+        bgcolor: '#FFF',
+        allowFullScreen: true,
+        allowScriptAccess: 'always',
+        wmode: 'transparent'
+    };
+  var d = ['http://api.baiyug.cn/vip/index.php?url=' + a + '&mobile'];
+    var e = ['iPad', 'iPhone', 'ios', 'android+false', 'msie10+false'];
+    CKobject.embed('player/player.swf', 'ckplays', 'ckplayer_mains', '100%', '500', false, b, d, c)
+}
+
+function addhtml52() {
+    if (CKobject.isHTML5()) {
+        support = ['all'];
+        CKobject._K_('moveid').innerHTML = '';
+        CKobject.embedHTML5('moveid', 'ckplayer_a1', '100%', 530, video, flashvars, support)
+    } else {
+        addflash()
+    }
+}
+function launchIntoFullscreen(element) { 
+  if(element.requestFullscreen){ 
+  element.requestFullscreen(); 
+ }
+ else if(element.mozRequestFullScreen) {
+ element.mozRequestFullScreen(); 
+ } 
+else if(element.webkitRequestFullscreen) { 
+  element.webkitRequestFullscreen(); 
+ } 
+else if(element.msRequestFullscreen) { 
+  element.msRequestFullscreen(); 
+ }
+ }
+</script>
+					<div id="ckplays"></div> 
+						<!-- <div class="logos_lists" style="margin-left:30px;">					
+							<dl>
+								<a target="_blank" href="http://vip.iqiyi.com/"><img src="img/aqylogo.png" alt=""></a>							
+								<dd>爱奇艺视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://film.qq.com/"><img src="img/qqlogo.png" alt=""></a>
+								<dd>腾讯视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://vip.youku.com/"><img src="img/youkulogo.png" alt=""></a>
+								<dd>优酷视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://vip.tudou.com/index.html"><img src="img/tudoulogo.png" alt=""></a>
+								<dd>土豆视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.56.com/"><img src="img/56logo.png" alt=""></a>
+								<dd>56视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://movie.ku6.com/"><img src="img/ku6logo.png" alt=""></a>
+								<dd>酷6视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://yuanxian.le.com/?ref=ym0101"><img src="img/letvlogo.png" alt=""></a>
+								<dd>乐视TV视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.fun.tv/"><img src="img/fxw.png" alt=""></a>
+								<dd>风行网</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.mgtv.com/vip/"><img src="img/hunantvlogo.png" alt=""></a>
+								<dd>芒果TV视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://tv.sohu.com/"><img src="img/sohulogo.png" alt=""></a>
+								<dd>搜狐视频</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.pptv.com/"><img src="img/pps.png" alt=""></a>
+								<dd>PPTV</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.kankan.com/"><img src="img/xckk.png" alt=""></a>
+								<dd>响巢看看</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.baofeng.com/"><img src="img/bfyy.png" alt=""></a>
+								<dd>暴风影音</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.1905.com/"><img src="img/m1905.png" alt=""></a>
+								<dd>m1905电影网</dd>
+							</dl>
+							<dl>
+								<a target="_blank" href="http://www.yinyuetai.com/"><img src="img/yinyuetailogo.png" alt=""></a>
+								<dd>音悦台MV</dd>							
+							</dl>
+						
+						</div> -->
+
+
+<!--  -->
+<script>
+//var _hmt = _hmt || [];
+//(function() {
+//  var hm = document.createElement("script");
+//  hm.src = "https://hm.baidu.com/hm.js?a3d863f2a09a4920e7226341fa57d409";
+//  var s = document.getElementsByTagName("script")[0]; 
+//  s.parentNode.insertBefore(hm, s);
+//})();
+</script>
+<script src="https://hm.baidu.com/hm.js?66431f8b06e609b2ce574788b1848e01"></script>
+<!-- <script type="demo">
+(fillBg=function(i,l){function n(i,l){c.globalCompositeOperation=i,c.fillStyle=l}n("source-over",i),c.fillRect(0,0,W=a.width,H=a.height),n("lighter",l)})("#000"),Random=Math.random,Sin=Math.sin,Cos=Math.cos,K=40,P=Math.PI,PK=P/K,P10=P/10,P2=P/2,C=P+P,i=24,(r=function(){fillBg("rgba(0,0,0,0.2)","hsla("+i+",70%,60%,0.5)");for(let l=3,n=20,o=50,t=o+l,a=K+n*Cos(-i/t)*Sin(i/(o+n))+W,P=i/137,e=P10+i/(t-10),r=P10+i/(110+o+l),s=0,f=0;s<K;++s){c.fillStyle="hsla("+(n*s+i)+",70%,60%,0.5)",e+=f,r+=f;for(let i,n,o,s=Sin(P+P2),f=Sin(P),h=Sin(r),S=Cos(r),g=0;g<K;++g)i=PK*g+h,o=(n=Sin(e+i))*Cos(i),p=n*Sin(i),n=1/(o*s+1.4),p*=n+f,o*=n*f,c.beginPath(),i=t+W/3,c.arc(W*(o*S-p*h)+f+i,W*(o*h+p*S)*Cos(n)+g*h+a-H-i-g,l*n+s,0,C),c.fill();P+=f,f=PK}requestAnimationFrame(r),i++})();
+    </script>
+    <script>
+      (function(){var m=document,b=m.getElementsByTagName("header")[0],h=b.firstChild,n=m.getElementsByClassName("p")[0],f=m
+      .getElementsByClassName("n")[0];b.insertBefore(n,h);b.insertBefore(f,h);b.appendChild(m.getElementsByTagName("p")[0])}
+      )();(function reload(){function h(a){g.body.removeChild(k);d.parentElement.removeChild(d);t=c=d=k=null;reload(a)}var
+        B=T_CANVAS_SHIM=true,
+        N=T_WEBGL=false,
+        F=T_MAX_WIDTH=0,
+        P=T_MAX_HEIGHT=0,
+        U=T_LOCK_RATIO=false,
+        Q=T_CENTER_CANVAS=false,
+        V=T_RELOAD_ONORIENTATIONCHANGE=false,
+      g=document,t=g.getElementsByTagName("header")[0],k=g.createElement("iframe");k.setAttribute('id','bgc');g.body.appendChild(k);var a=k.contentWindow
+      ,c=k.contentDocument;c.open();c.close();c.write('<!doctype html><html style="margin: 0; padding: 0; border: 0;'+(B?" w"+
+      "idth: 100%; height: 100%;":"")+'"><head><meta charset="utf-8"><body style="margin: 0; padding: 0; border: 0;'+(B?" wi"+
+      "dth: 100%; height: 100%;":"")+'">'+(B?'<canvas style="display: block;'+(Q?" margin: auto;":"")+'"></canvas>':"")+"");if
+      (B){var e=c.getElementsByTagName("canvas")[0],q=e.style;c.body.clientWidth;var l=Math.max(Math.min(F||innerWidth,
+      innerWidth),1),r=Math.max(Math.min(P||innerHeight-50,innerHeight-50),1);(l<F||r<P)&&U&&(l<F?r=l/F*P:l=r/P*F);q.width=(e.
+      width=l)+"px";q.height=(e.height=r)+"px"}V&&(onorientationchange=h);a.AudioContext=a.AudioContext||a.webkitAudioContext;
+      a.requestAnimationFrame=a.requestAnimationFrame||a.mozRequestAnimationFrame||a.webkitRequestAnimationFrame||a.
+      msRequestAnimationFrame||function(b){a.setTimeout(b,1E3/30)};B&&(e.requestPointerLock=e.requestPointerLock||e.
+      mozRequestPointerLock||e.webkitRequestPointerLock);c.body.requestPointerLock=c.body.requestPointerLock||c.body.
+      mozRequestPointerLock||c.body.webkitRequestPointerLock;var nav=a.navigator;nav.getUserMedia=nav.getUserMedia||N.
+      webkitGetUserMedia||nav.mozGetUserMedia||nav.msGetUserMedia;a.OscillatorNode&&a.OscillatorNode.prototype&&(a
+      .OscillatorNode.prototype.start=a.OscillatorNode.prototype.start||a.OscillatorNode.prototype.noteOn,a.OscillatorNode.
+      prototype.stop=a.OscillatorNode.prototype.stop||a.OscillatorNode.prototype.noteOff);B&&(a.a=e);a.b=c.body;a.d=c;B&&(N||(
+      a.c=e.getContext("2d")),N&&(a.g=function(){a.onorientationchange=a.onresize=null;try{var b={antialias:!0,stencil:!0},d=e
+      .getContext("webgl",b)||e.getContext("experimental-webgl",b);a.__glExts="OES_texture_float OES_texture_float_linear OE"+
+      "S_standard_derivatives EXT_texture_filter_anisotropic MOZ_EXT_texture_filter_anisotropic WEBKIT_EXT_texture_filter_an"+
+      "isotropic WEBGL_compressed_texture_s3tc MOZ_WEBGL_compressed_texture_s3tc WEBKIT_WEBGL_compressed_texture_s3tc".split(
+      " ").map(function(a){return d.getExtension(a)})}catch(f){throw c.body.innerHTML="WebGL not supported.",a.a=a.b=a.c=a.d=
+      null,f;}return d}()));B=c.createElement("script");B.textContent=g.querySelector('script[type="demo"]').textContent;c.
+      body.appendChild(B);c.close();k.contentWindow.focus();B=g.getElementsByTagName("div")[0];window.reload=h;var d=g.
+      createElement("div");d.innerHTML="&#8635;";d.className="button r";d.title="restart just the demo (local, without remot"+
+      "e fetch)";d.onclick=h;t.insertBefore(d,B)})();
+    </script> -->
+</body>
+</html>
